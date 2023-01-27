@@ -26,7 +26,7 @@ a {
   font-family: var(--font-primary);
   color: var(--text-color-primary);
 }
-.headline {
+.nav__list-item {
   position: relative;
   color: var(--text-color-primary);
   font-weight: 500;
@@ -54,11 +54,11 @@ a {
 .link2:focus,
 .link:hover,
 .link:focus,
-.headline:hover,
-.headline:focus {
+.nav__list-item:hover,
+.nav__list-item:focus {
   color: var(--text-color-tertiary);
 }
-.post-body {
+.nav__logo {
   color: var(--text-color-secondary);
   font-family: var(--font-secondary);
   font-weight: 700;
@@ -67,7 +67,7 @@ a {
   line-height: 1.17;
   margin-right: 93px;
 }
-.post-body1 {
+.nav__logo-studio {
   color: var(--text-color-tertiary);
   font-family: var(--font-secondary);
   font-weight: 700;
@@ -76,14 +76,14 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-.post-body2 {
+.footer__logo {
   color: var(--text-color-quaternary);
   font-family: var(--font-secondary);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
 }
-.title1 {
+.sloganbg__title {
   color: var(--text-color-quaternary);
   letter-spacing: 0.06em;
   font-size: 44px;
@@ -101,7 +101,7 @@ a {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-.title-lorem {
+.section__title {
   color: var(--text-color-primary);
   font-weight: 700;
   font-size: 36px;
@@ -133,7 +133,7 @@ a {
 .background1 {
   background-color: var(--background-color-quinary);
 }
-.background2 {
+.sloganbg {
   display: flex;
   background-color: var(--background-color-tertiary);
   background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 80%),
