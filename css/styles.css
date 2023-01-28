@@ -405,11 +405,12 @@ a {
   width: 370px;
   height: 294px;
   background: rgba(33, 150, 243, 0.9);
-  transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(0);
 }
 .portfoliolist__border:hover .portfoliolist__overley,
 .portfoliolist__border:focus .portfoliolist__overley {
-  top: 0;
+  transform: translateY(-137.5%);
 }
 .portfoliolist__label {
   position: relative;
