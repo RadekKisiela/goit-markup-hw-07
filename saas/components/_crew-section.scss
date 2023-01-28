@@ -1,0 +1,105 @@
+.crew {
+  background-color: var(--background-color-quinary);
+  &__title {
+    color: var(--text-color-primary);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    &-names {
+      color: var(--text-color-primary);
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.33;
+      text-align: center;
+      letter-spacing: 0.03em;
+      padding-top: 30px;
+      padding-bottom: 10px;
+    }
+    &-paragraph {
+      color: var(--text-color-quinary);
+      font-size: 16px;
+      line-height: 1.33;
+      text-align: center;
+      letter-spacing: 0.03em;
+      padding-bottom: 30px;
+    }
+    &-border {
+      background: var(--background-color-primary);
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+      border-radius: 0px 0px 4px 4px;
+    }
+    &-button {
+      border: none;
+      background-color: #fff;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      cursor: pointer;
+      padding: 12px;
+      margin-bottom: 30px;
+      &:focus {
+        border: none;
+        background: #2196f3;
+        .social-media__icons {
+          fill: #fff;
+        }
+      }
+      &:hover {
+        border: none;
+        background: #2196f3;
+        .social-media__icons {
+          fill: #fff;
+        }
+      }
+    }
+    &-label {
+      position: absolute;
+      text-align: center;
+      padding-top: 27px;
+      width: 370px;
+      height: 70px;
+      font-weight: 700;
+      font-size: 14px;
+      color: var(--text-color-quaternary);
+      background: rgba(47, 48, 58, 0.8);
+      opacity: 0.8;
+      top: 224px;
+    }
+  }
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  gap: 10px;
+  &__icons {
+    fill: #afb1b8;
+  }
+  &__button {
+    background: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 12px;
+    border: none;
+    margin-bottom: 30px;
+    &:focus {
+      background: #2196f3;
+    }
+    &:hover {
+      background: #2196f3;
+    }
+  }
+}

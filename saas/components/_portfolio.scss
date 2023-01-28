@@ -1,0 +1,71 @@
+.portfoliolist {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+  &__button {
+    color: var(--text-color-primary);
+    font-weight: 500;
+    background-color: var(--background-color-quinary);
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-right: 8px;
+    padding: 6px 22px;
+    border-radius: 4px;
+    &:focus {
+      color: var(--text-color-quaternary);
+      background-color: var(--background-color-quaternary);
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
+    }
+    &:hover {
+      color: var(--text-color-quaternary);
+      background-color: var(--background-color-quaternary);
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
+    }
+  }
+  &__border {
+    position: relative;
+    background: var(--background-color-primary);
+    border: 1px solid #eee;
+    overflow: hidden;
+    &__border:hover {
+      background: var(--background-color-primary);
+      border: 1px solid #eee;
+      box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16);
+      .overley {
+        bottom: 0;
+      }
+    }
+  }
+  &__paragraph {
+    color: var(--text-color-quinary);
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    padding-left: 24px;
+    padding-bottom: 20px;
+  }
+  &__label {
+    position: relative;
+    background-color: #fff;
+    z-index: 1;
+  }
+}
+
+.sloganbg .portfoliolist__button {
+  color: var(--text-color-primary);
+  font-weight: 500;
+  background-color: var(--background-color-quinary);
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-right: 8px;
+  padding: 6px 22px;
+  border-radius: 4px;
+}

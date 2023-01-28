@@ -1,0 +1,21 @@
+.portfoliolist__border:hover .overley {
+  bottom: 0;
+}
+.section .crew__list .portfoliolist__overley {
+  position: absolute;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--text-color-quaternary);
+  line-height: 1.55;
+  letter-spacing: 0.3;
+  padding: 49px 45px 49px 24px;
+  width: 370px;
+  height: 294px;
+  background: rgba(33, 150, 243, 0.9);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(0);
+}
+.portfoliolist__border:hover .portfoliolist__overley,
+.portfoliolist__border:focus .portfoliolist__overley {
+  transform: translateY(-137.5%);
+}
