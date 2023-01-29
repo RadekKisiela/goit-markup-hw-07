@@ -5,7 +5,7 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  &-overley {
+  &__overley {
     display: flex;
     position: fixed;
     justify-content: center;
@@ -115,11 +115,20 @@
     top: 427px;
     fill: #212121;
   }
+  &__form-checkbox:checked {
+    border: none;
+    background-image: url('../images/icons.svg#icon-Vector');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: none;
+  }
+  &__is-hidden {
+    display: none;
+    visibility: hidden;
+  }
 }
-.is-hidden {
-  display: none;
-  visibility: hidden;
-}
+
 .modal__field {
   position: relative;
   width: 448px;
@@ -154,12 +163,4 @@
       fill: #2196f3;
     }
   }
-}
-.form-checkbox:checked {
-  border: none;
-  background-image: url('../images/icons.svg#icon-Vector');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: none;
 }

@@ -1,20 +1,21 @@
 .clients {
   background-color: var(--background-color-primary);
-}
-.client__icons {
-  fill: #afb1b8;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  width: 170px;
-  height: 92px;
-  &:focus {
-    border: 1px solid #2196f3;
+
+  &__icons {
+    fill: #afb1b8;
+    border: 1px solid #afb1b8;
     border-radius: 4px;
-    fill: #2196f3;
-  }
-  &:hover {
-    border: 1px solid #2196f3;
-    border-radius: 4px;
-    fill: #2196f3;
+    width: 170px;
+    height: 92px;
+    &:focus {
+      border: 1px solid #2196f3;
+      border-radius: 4px;
+      fill: #2196f3;
+    }
+    &:hover {
+      border: 1px solid #2196f3;
+      border-radius: 4px;
+      fill: #2196f3;
+    }
   }
 }

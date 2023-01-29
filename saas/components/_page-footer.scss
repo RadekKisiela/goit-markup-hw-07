@@ -19,23 +19,24 @@
   &__icon {
     fill: #fff;
   }
-}
-.newsletter {
-  padding-top: 16px;
-  &__field {
-    padding: 15px 185px 15px 16px;
-    margin-right: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    background: #2f303a;
+
+  &__newsletter {
+    padding-top: 16px;
+    &-field {
+      padding: 15px 185px 15px 16px;
+      margin-right: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+      border-radius: 4px;
+      background: #2f303a;
+    }
+    &-icon {
+      fill: #fff;
+      margin-left: 24px;
+    }
   }
-  &__icon {
-    fill: #fff;
-    margin-left: 24px;
-  }
 }
-.list .newsletter__button {
+.list .footer__newsletter-button {
   display: inline-flex;
   color: var(--text-color-quaternary);
   font-weight: 700;

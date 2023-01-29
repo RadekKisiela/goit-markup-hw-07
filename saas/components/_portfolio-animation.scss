@@ -1,7 +1,7 @@
-.portfoliolist__border:hover .overley {
+.portfolio__list-border:hover .overley {
   bottom: 0;
 }
-.section .crew__list .portfoliolist__overley {
+.section .crew__cards .portfolio__list-overley {
   position: absolute;
   font-weight: 400;
   font-size: 18px;
@@ -15,7 +15,7 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(0);
 }
-.portfoliolist__border:hover .portfoliolist__overley,
-.portfoliolist__border:focus .portfoliolist__overley {
+.portfolio__list-border:hover .portfolio__list-overley,
+.portfolio__list-border:focus .portfolio__list-overley {
   transform: translateY(-137.5%);
 }

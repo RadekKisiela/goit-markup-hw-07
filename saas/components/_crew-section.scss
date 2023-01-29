@@ -10,7 +10,7 @@
     margin-bottom: 50px;
   }
 
-  &__list {
+  &__cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -78,15 +78,15 @@
     }
   }
 }
-.social-media {
+.crew__social-media {
   display: flex;
   justify-content: center;
   padding-top: 16px;
   gap: 10px;
-  &__icons {
+  &-icons {
     fill: #afb1b8;
   }
-  &__button {
+  &-button {
     background: rgba(255, 255, 255, 0.1);
     width: 44px;
     height: 44px;
