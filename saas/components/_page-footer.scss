@@ -18,6 +18,13 @@
       letter-spacing: 0.03em;
       line-height: 1.17;
     }
+    &-paragraph {
+      color: #fff;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+    }
   }
   &-menu {
     padding-top: 60px;
@@ -41,21 +48,21 @@
       fill: #fff;
       margin-left: 24px;
     }
+    &-button {
+      display: inline-flex;
+      color: var(--text-color-quaternary);
+      font-weight: 700;
+      background-color: var(--background-color-quaternary);
+      cursor: pointer;
+      font-size: 16px;
+      line-height: 1.87;
+      border: none;
+      letter-spacing: 0.06em;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 4px;
+      padding-left: 42px;
+      align-items: center;
+      padding: 10px 32px 10px 42px;
+    }
   }
-}
-.list .footer__newsletter-button {
-  display: inline-flex;
-  color: var(--text-color-quaternary);
-  font-weight: 700;
-  background-color: var(--background-color-quaternary);
-  cursor: pointer;
-  font-size: 16px;
-  line-height: 1.87;
-  border: none;
-  letter-spacing: 0.06em;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  padding-left: 42px;
-  align-items: center;
-  padding: 10px 32px 10px 42px;
 }
