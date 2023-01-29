@@ -17,14 +17,14 @@
     <div class="container header__menu">
       <nav class="header__nav">
         <a class="header__logo" href="index.html"><span class="header__logo-studio">Web</span>Studio</a>
-        <ul class="list">
+        <ul class="header__list">
 
           <li><a class="header__menu-item header__menu-item--active" href="index.html">Agencja</a></li>
           <li><a class="header__menu-item" href="portfolio.html">Portfolio</a></li>
           <li><a class="header__menu-item" href="#">Kontakt</a></li>
         </ul>
       </nav>
-      <ul class="list">
+      <ul class="header__list">
         <li>
           <a class="header__nav-link header__nav-icons" href="mailto:info@devstudio">
             <svg width="16px" height="12px">
@@ -51,7 +51,7 @@
     </section>
     <section class="section header">
       <div class="container">
-        <ul class="list">
+        <ul class="header__list">
           <li>
             <svg class="header__list-icons" width="270px" height="120px" radius="4px">
               <use href="./images/icons.svg#icon-Group-1"></use>
@@ -129,7 +129,7 @@
             <div class="crew__cards-border">
               <img src="./images/man.jpg" alt="Mężczyzna" width="270" height="260" />
               <h3 class="crew__cards-names">John Doe</h3>
-              <p class="crew__-paragraph">Product Designer</p>
+              <p class="crew__cards-paragraph">Product Designer</p>
               <div class="crew__social-media">
                 <button class="crew__social-media-button">
                   <svg class="crew__social-media-icons" width="20px" height="20px">
@@ -231,23 +231,23 @@
     <section class="clients section">
       <h2 class="crew__title">Nasi klienci</h2>
       <div class="container">
-        <ul class="list">
-          <li class="client__icons"><svg width="170px" height="92px">
+        <ul class="header__list">
+          <li class="clients__icons"><svg width="170px" height="92px">
               <use href="./images/icons.svg#icon-Logo"></use>
             </svg></li>
-          <li class="client__icons"> <svg width="170px" height="92px">
+          <li class="clients__icons"> <svg width="170px" height="92px">
               <use href="./images/icons.svg#icon-Logo-1"></use>
             </svg></li>
-          <li class="client__icons"><svg width="170px" height="92px">
+          <li class="clients__icons"><svg width="170px" height="92px">
               <use href="./images/icons.svg#icon-Logo-2"></use>
             </svg></li>
-          <li class="client__icons"><svg width="170px" height="92px">
+          <li class="clients__icons"><svg width="170px" height="92px">
               <use href="./images/icons.svg#icon-Logo-3"></use>
             </svg></li>
-          <li class="client__icons"><svg width="170px" height="92px">
+          <li class="clients__icons"><svg width="170px" height="92px">
               <use href="./images/icons.svg#icon-Logo-4"></use>
             </svg></li>
-          <li class="client__icons"><svg width="170px" height="92px">
+          <li class="clients__icons"><svg width="170px" height="92px">
               <use href="./images/icons.svg#icon-Logo-5"></use>
             </svg></li>
         </ul>
@@ -271,7 +271,7 @@
             </ul>
         </li>
         <li>
-          <h3 class="footer__title">DOŁĄCZ DO NAS</h3>
+          <h3 class="footer__list-title">DOŁĄCZ DO NAS</h3>
           <div class="crew__social-media">
             <button class="crew__social-media-button">
               <svg width="20px" height="20px">
@@ -292,7 +292,7 @@
           </div>
         <li>
 
-          <h3 class="footer__title">ZAPISZ SIĘ DO NEWSLETTERA</h3>
+          <h3 class="footer__list-title">ZAPISZ SIĘ DO NEWSLETTERA</h3>
           <div class="footer__newsletter">
             <form name="signup_form" autocomplete="on" novalidate>
               <label>
@@ -322,28 +322,34 @@
           <li>
             <label>
               <p class="modal__paragraph">Imię</p>
-              <input class="modal__field" type="text" name="username" />
-              <svg class="modal__icons-name" width="18px" height="18px">
-                <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
-              </svg>
+              <div>
+                <input class="modal__field" type="text" name="username" />
+                <svg class="modal__icons-name" width="18px" height="18px">
+                  <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+                </svg>
+              </div>
             </label>
           </li>
           <li>
             <label>
               <p class="modal__paragraph">Telefon</p>
-              <input class="modal__field" type="text" name="phone number" />
-              <svg class="modal__icons-phone" width="18px" height="18px">
-                <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
-              </svg>
+              <div>
+                <input class="modal__field" type="text" name="phone number" />
+                <svg class="modal__icons-phone" width="18px" height="18px">
+                  <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+                </svg>
+              </div>
             </label>
           </li>
           <li>
             <label>
               <p class="modal__paragraph">Email</p>
-              <input class="modal__field" type="email" name="email" />
-              <svg class="modal__icons-mail" width="18px" height="18px">
-                <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
-              </svg>
+              <div>
+                <input class="modal__field" type="email" name="email" />
+                <svg class="modal__icons-mail" width="18px" height="18px">
+                  <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
+                </svg>
+              </div>
             </label>
           </li>
           <li>
