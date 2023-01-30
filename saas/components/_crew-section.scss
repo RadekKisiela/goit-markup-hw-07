@@ -39,30 +39,6 @@
         0px 2px 1px rgba(0, 0, 0, 0.2);
       border-radius: 0px 0px 4px 4px;
     }
-    &-button {
-      border: none;
-      background-color: #fff;
-      width: 44px;
-      height: 44px;
-      border-radius: 50%;
-      cursor: pointer;
-      padding: 12px;
-      margin-bottom: 30px;
-      &:focus {
-        border: none;
-        background: #2196f3;
-        .social-media__icons {
-          fill: #fff;
-        }
-      }
-      &:hover {
-        border: none;
-        background: #2196f3;
-        .social-media__icons {
-          fill: #fff;
-        }
-      }
-    }
     &-label {
       position: absolute;
       text-align: center;
@@ -97,9 +73,15 @@
     margin-bottom: 30px;
     &:focus {
       background: #2196f3;
+      .crew__social-media-icons {
+        fill: #fff;
+      }
     }
     &:hover {
       background: #2196f3;
+      .crew__social-media-icons {
+        fill: #fff;
+      }
     }
   }
 }
