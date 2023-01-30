@@ -29,10 +29,7 @@ a {
   margin: 0 auto;
   max-width: 1200px;
 }
-
-.header__menu {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 25px;
+.core {
+  font-family: var(--font-primary);
+  color: var(--text-color-primary);
 }

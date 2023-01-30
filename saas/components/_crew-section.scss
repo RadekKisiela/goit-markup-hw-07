@@ -71,12 +71,7 @@
     padding: 12px;
     border: none;
     margin-bottom: 30px;
-    &:focus {
-      background: #2196f3;
-      .crew__social-media-icons {
-        fill: #fff;
-      }
-    }
+    &:focus,
     &:hover {
       background: #2196f3;
       .crew__social-media-icons {

@@ -7,14 +7,10 @@
     border-radius: 4px;
     width: 170px;
     height: 92px;
-    &:focus {
-      border: 1px solid #2196f3;
-      border-radius: 4px;
-      fill: #2196f3;
-    }
+    padding: 16px 32px;
+    &:focus,
     &:hover {
-      border: 1px solid #2196f3;
-      border-radius: 4px;
+      border-color: #2196f3;
       fill: #2196f3;
     }
   }

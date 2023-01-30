@@ -1,5 +1,11 @@
 .header {
   background-color: var(--background-color-primary);
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
   &__border {
     border: 1px solid rgba(236, 236, 236, 1);
   }
@@ -31,9 +37,7 @@
     margin-right: 46px;
     letter-spacing: 0.02em;
 
-    &:hover {
-      color: var(--text-color-tertiary);
-    }
+    &:hover,
     &:focus {
       color: var(--text-color-tertiary);
     }
@@ -56,33 +60,25 @@
 .header__nav {
   display: flex;
   align-items: center;
-
+}
+.header__contacts {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   &-link {
+    margin-right: 30px;
+    align-items: center;
     color: var(--text-color-quinary);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.02em;
     gap: 10px;
-
-    &:focus {
-      color: #2196f3;
-      fill: rgba(33, 150, 243, 1);
-    }
+    font-style: normal;
+    &:focus,
     &:hover {
       color: #2196f3;
-      fill: rgba(33, 150, 243, 1);
-    }
-  }
-  &-icons {
-    display: flex;
-    margin-left: 30px;
-    align-items: center;
-
-    &:focus {
-      fill: rgba(33, 150, 243, 1);
-    }
-    &:hover {
       fill: rgba(33, 150, 243, 1);
     }
   }

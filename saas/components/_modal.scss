@@ -128,10 +128,7 @@
       letter-spacing: 0.01em;
       padding-top: 12px;
       padding-left: 16px;
-      &:focus {
-        border: 1px solid #2196f3;
-        outline: none;
-      }
+      &:focus,
       &:hover {
         border: 1px solid #2196f3;
         outline: none;
@@ -139,8 +136,7 @@
     }
 
     &:hover,
-    &:focus,
-    &:active {
+    &:focus {
       .modal__label-icons {
         fill: #2196f3;
       }
