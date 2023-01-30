@@ -97,24 +97,32 @@
     align-content: space-around;
     min-height: 501px;
   }
-  &__icons-name {
+  &__icons {
     position: absolute;
-    left: 590px;
-    top: 280px;
+    margin-top: 11px;
+    margin-left: 12px;
+    left: 571px;
     fill: #212121;
   }
-  &__icons-phone {
-    position: absolute;
-    left: 590px;
-    top: 354px;
-    fill: #212121;
+  &__field {
+    position: relative;
+    width: 448px;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding-left: 42px;
+    outline: none;
+    &:hover,
+    &:focus,
+    &:active {
+      border: 1px solid #2196f3;
+      outline: none;
+      .modal__icons {
+        fill: #2196f3;
+      }
+    }
   }
-  &__icons-mail {
-    position: absolute;
-    left: 590px;
-    top: 427px;
-    fill: #212121;
-  }
+
   &__form-checkbox:checked {
     border: none;
     background-image: url('../images/icons.svg#icon-Vector');
@@ -126,41 +134,5 @@
   &__is-hidden {
     display: none;
     visibility: hidden;
-  }
-}
-
-.modal__field {
-  position: relative;
-  width: 448px;
-  height: 40px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-  padding-left: 42px;
-  outline: none;
-  &:hover {
-    border: 1px solid #2196f3;
-    outline: none;
-    .modal__icons-name {
-      fill: #2196f3;
-    }
-    .modal__icons-phone {
-      fill: #2196f3;
-    }
-    .modal__icons-mail {
-      fill: #2196f3;
-    }
-  }
-  &:focus {
-    border: 1px solid #2196f3;
-    outline: none;
-    .modal__icons-name {
-      fill: #2196f3;
-    }
-    .modal__icons-phone {
-      fill: #2196f3;
-    }
-    .modal__icons-mail {
-      fill: #2196f3;
-    }
   }
 }
