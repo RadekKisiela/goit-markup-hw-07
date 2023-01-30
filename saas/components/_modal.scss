@@ -102,7 +102,7 @@
     position: absolute;
     margin-top: 11px;
     margin-left: 12px;
-    left: 571px;
+    left: 0;
     fill: #212121;
   }
   &__field {
@@ -114,13 +114,9 @@
     padding-left: 42px;
     outline: none;
     &:hover,
-    &:focus,
-    &:active {
+    &:focus {
       border: 1px solid #2196f3;
       outline: none;
-      .modal__icons {
-        fill: #2196f3;
-      }
     }
   }
 
@@ -138,8 +134,16 @@
   }
 
   &__label {
-    margin-left: 40px;
-    margin-bottom: 10px;
-    margin-right: 40px;
+    position: relative;
+    width: 448px;
+    height: 40px;
+
+    &:hover,
+    &:focus,
+    &:active {
+      .modal__icons {
+        fill: #2196f3;
+      }
+    }
   }
 }
