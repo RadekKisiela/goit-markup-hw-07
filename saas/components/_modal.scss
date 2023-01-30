@@ -31,36 +31,6 @@
     display: inline;
   }
 
-  &__field-comment {
-    width: 448px;
-    height: 120px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
-    resize: none;
-    color: rgba(117, 117, 117, 0.5);
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.16;
-    letter-spacing: 0.01em;
-    padding-top: 12px;
-    padding-left: 16px;
-    &:focus {
-      border: 1px solid #2196f3;
-      outline: none;
-    }
-    &:hover {
-      border: 1px solid #2196f3;
-      outline: none;
-    }
-  }
-  &__paragraph {
-    color: rgba(117, 117, 117, 1);
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.16px;
-    letter-spacing: 0.01em;
-    margin-bottom: 8px;
-  }
   &__title {
     display: flex;
     justify-content: center;
@@ -98,27 +68,6 @@
     align-content: space-around;
     min-height: 501px;
   }
-  &__icons {
-    position: absolute;
-    margin-top: 11px;
-    margin-left: 12px;
-    left: 0;
-    fill: #212121;
-  }
-  &__field {
-    position: relative;
-    width: 448px;
-    height: 40px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
-    padding-left: 42px;
-    outline: none;
-    &:hover,
-    &:focus {
-      border: 1px solid #2196f3;
-      outline: none;
-    }
-  }
 
   &__form-checkbox:checked {
     border: none;
@@ -137,11 +86,62 @@
     position: relative;
     width: 448px;
     height: 40px;
+    &-paragraph {
+      color: rgba(117, 117, 117, 1);
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.16px;
+      letter-spacing: 0.01em;
+      margin-bottom: 8px;
+    }
+    &-field {
+      position: relative;
+      width: 448px;
+      height: 40px;
+      border: 1px solid rgba(33, 33, 33, 0.2);
+      border-radius: 4px;
+      padding-left: 42px;
+      outline: none;
+      &:hover,
+      &:focus {
+        border: 1px solid #2196f3;
+        outline: none;
+      }
+    }
+    &-icons {
+      position: absolute;
+      margin-top: 11px;
+      margin-left: 12px;
+      left: 0;
+      fill: #212121;
+    }
+    &-field--comment {
+      width: 448px;
+      height: 120px;
+      border: 1px solid rgba(33, 33, 33, 0.2);
+      border-radius: 4px;
+      resize: none;
+      color: rgba(117, 117, 117, 0.5);
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.16;
+      letter-spacing: 0.01em;
+      padding-top: 12px;
+      padding-left: 16px;
+      &:focus {
+        border: 1px solid #2196f3;
+        outline: none;
+      }
+      &:hover {
+        border: 1px solid #2196f3;
+        outline: none;
+      }
+    }
 
     &:hover,
     &:focus,
     &:active {
-      .modal__icons {
+      .modal__label-icons {
         fill: #2196f3;
       }
     }
