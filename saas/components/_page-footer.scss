@@ -27,10 +27,7 @@
       font-style: normal;
     }
   }
-  &-menu {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
+
   &__icon {
     fill: #fff;
   }
@@ -66,4 +63,8 @@
       padding: 10px 32px 10px 42px;
     }
   }
+}
+.footer__container {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
