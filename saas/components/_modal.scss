@@ -27,9 +27,6 @@
     left: 490px;
     top: 8px;
   }
-  &__fields {
-    display: inline;
-  }
 
   &__title {
     display: flex;
@@ -61,13 +58,6 @@
     letter-spacing: 0.06em;
     padding: 10px 76px;
   }
-  &__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: space-around;
-    min-height: 501px;
-  }
 
   &__form-checkbox:checked {
     border: none;
@@ -80,66 +70,5 @@
   &__is-hidden {
     display: none;
     visibility: hidden;
-  }
-
-  &__label {
-    position: relative;
-    width: 448px;
-    height: 40px;
-    &-paragraph {
-      color: rgba(117, 117, 117, 1);
-      font-size: 12px;
-      font-weight: 400;
-      line-height: 1.16px;
-      letter-spacing: 0.01em;
-      margin-bottom: 8px;
-    }
-    &-field {
-      position: relative;
-      width: 448px;
-      height: 40px;
-      border: 1px solid rgba(33, 33, 33, 0.2);
-      border-radius: 4px;
-      padding-left: 42px;
-      outline: none;
-      &:hover,
-      &:focus {
-        border: 1px solid #2196f3;
-        outline: none;
-      }
-    }
-    &-icons {
-      position: absolute;
-      margin-top: 11px;
-      margin-left: 12px;
-      left: 0;
-      fill: #212121;
-    }
-    &-field--comment {
-      width: 448px;
-      height: 120px;
-      border: 1px solid rgba(33, 33, 33, 0.2);
-      border-radius: 4px;
-      resize: none;
-      color: rgba(117, 117, 117, 0.5);
-      font-size: 12px;
-      font-weight: 400;
-      line-height: 1.16;
-      letter-spacing: 0.01em;
-      padding-top: 12px;
-      padding-left: 16px;
-      &:focus,
-      &:hover {
-        border: 1px solid #2196f3;
-        outline: none;
-      }
-    }
-
-    &:hover,
-    &:focus {
-      .modal__label-icons {
-        fill: #2196f3;
-      }
-    }
   }
 }
