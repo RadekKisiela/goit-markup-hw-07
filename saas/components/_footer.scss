@@ -67,4 +67,14 @@
 .footer__container {
   padding-top: 60px;
   padding-bottom: 60px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.address {
+  color: var(--text-color-quaternary);
+  font-size: 14px;
+  line-height: 2;
+  font-style: normal;
+  padding-top: 20px;
 }

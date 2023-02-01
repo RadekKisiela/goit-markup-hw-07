@@ -11,15 +11,6 @@ a {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  &__title {
-    color: var(--text-color-primary);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    margin-bottom: 50px;
-  }
   &__header {
     color: var(--text-color-primary);
     font-weight: 700;
@@ -37,22 +28,7 @@ a {
   margin: 0 auto;
   max-width: 1200px;
 }
-.core {
+.body {
   font-family: var(--font-primary);
   color: var(--text-color-primary);
-}
-.benefits {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  &__title {
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    line-height: 2;
-    color: rgba(33, 33, 33, 1);
-    padding-left: 24px;
-    padding-top: 20px;
-  }
 }
