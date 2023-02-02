@@ -19,7 +19,7 @@
       line-height: 1.17;
     }
     &-paragraph {
-      color: #fff;
+      color: var(--background-color-primary);
       font-weight: 400;
       font-size: 14px;
       line-height: 1.71;
@@ -29,7 +29,7 @@
   }
 
   &__icon {
-    fill: #fff;
+    fill: var(--background-color-primary);
   }
 
   &__newsletter {
@@ -43,7 +43,7 @@
       background: #2f303a;
     }
     &-icon {
-      fill: #fff;
+      fill: var(--background-color-primary);
       margin-left: 24px;
     }
     &-button {

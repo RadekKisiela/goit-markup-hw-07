@@ -1,6 +1,25 @@
 .form {
   display: flex;
   flex-direction: column;
+  &__comment {
+    width: 448px;
+    height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    resize: none;
+    color: var(--color-secondary);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    padding-top: 12px;
+    padding-left: 16px;
+    &:focus,
+    &:hover {
+      border: 1px solid var(--background-color-quaternary);
+      outline: none;
+    }
+  }
   &__list {
     display: flex;
     flex-wrap: wrap;
@@ -13,7 +32,7 @@
     width: 448px;
     height: 40px;
     &-paragraph {
-      color: rgba(117, 117, 117, 1);
+      color: var(--color-tertiary);
       font-size: 12px;
       font-weight: 400;
       line-height: 1.16px;
@@ -30,7 +49,7 @@
       outline: none;
       &:hover,
       &:focus {
-        border: 1px solid #2196f3;
+        border: 1px solid var(--background-color-quaternary);
         outline: none;
       }
     }
@@ -39,32 +58,13 @@
       margin-top: 11px;
       margin-left: 12px;
       left: 0;
-      fill: #212121;
-    }
-    &-field--comment {
-      width: 448px;
-      height: 120px;
-      border: 1px solid rgba(33, 33, 33, 0.2);
-      border-radius: 4px;
-      resize: none;
-      color: rgba(117, 117, 117, 0.5);
-      font-size: 12px;
-      font-weight: 400;
-      line-height: 1.16;
-      letter-spacing: 0.01em;
-      padding-top: 12px;
-      padding-left: 16px;
-      &:focus,
-      &:hover {
-        border: 1px solid #2196f3;
-        outline: none;
-      }
+      fill: var(--text-color-primary);
     }
 
     &:hover,
     &:focus {
       .form__label-icons {
-        fill: #2196f3;
+        fill: var(--background-color-quaternary);
       }
     }
   }

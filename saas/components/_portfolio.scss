@@ -46,7 +46,7 @@
   }
   &--label {
     position: relative;
-    background-color: #fff;
+    background-color: var(--background-color-primary);
     z-index: 1;
   }
 }
@@ -87,7 +87,7 @@
     font-weight: 700;
     letter-spacing: 0.06em;
     line-height: 2;
-    color: rgba(33, 33, 33, 1);
+    color: var(--text-color-primary);
     padding-left: 24px;
     padding-top: 20px;
   }
