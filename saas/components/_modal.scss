@@ -58,15 +58,6 @@
     letter-spacing: 0.06em;
     padding: 10px 76px;
   }
-
-  &__form-checkbox:checked {
-    border: none;
-    background-image: url('../images/icons.svg#icon-Vector');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: none;
-  }
   &__is-hidden {
     display: none;
     visibility: hidden;

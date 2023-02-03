@@ -20,12 +20,16 @@ a {
     letter-spacing: 0.03em;
     margin-bottom: 50px;
   }
+  &--lorem {
+    padding-top: 94px;
+    background-color: var(--background-color-primary);
+  }
 }
 .container {
   margin: 0 auto;
   max-width: 1200px;
 }
-.body {
+body {
   font-family: var(--font-primary);
   color: var(--text-color-primary);
 }
