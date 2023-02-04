@@ -40,6 +40,20 @@
       }
     }
   }
+  &__overley {
+    position: absolute;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--text-color-quaternary);
+    line-height: 1.55;
+    letter-spacing: 0.3;
+    padding: 49px 45px 49px 24px;
+    width: 370px;
+    height: 294px;
+    background: rgba(33, 150, 243, 0.9);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(0);
+  }
 }
 &__paragraph {
   color: var(--text-color-quinary);
@@ -58,20 +72,7 @@
 .portfolio__border:hover .overley {
   bottom: 0;
 }
-.portfolio__-overley {
-  position: absolute;
-  font-weight: 400;
-  font-size: 18px;
-  color: var(--text-color-quaternary);
-  line-height: 1.55;
-  letter-spacing: 0.3;
-  padding: 49px 45px 49px 24px;
-  width: 370px;
-  height: 294px;
-  background: rgba(33, 150, 243, 0.9);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transform: translateY(0);
-}
+
 .portfolio__border:hover .portfolio__overley,
 .portfolio__border:focus .portfolio__overley {
   transform: translateY(-137.5%);
