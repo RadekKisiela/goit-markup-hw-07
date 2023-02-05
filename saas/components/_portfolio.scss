@@ -26,7 +26,7 @@
       box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
     }
   }
-  &__border {
+  &__box {
     position: relative;
     background: var(--background-color-primary);
     border: 1px solid #eee;
@@ -67,22 +67,6 @@
     background-color: var(--background-color-primary);
     z-index: 1;
   }
-}
-
-.portfolio__border:hover .overley {
-  bottom: 0;
-}
-
-.portfolio__border:hover .portfolio__overley,
-.portfolio__border:focus .portfolio__overley {
-  transform: translateY(-137.5%);
-}
-
-.benefits {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   &__title {
     font-size: 18px;
     font-weight: 700;
@@ -92,4 +76,13 @@
     padding-left: 24px;
     padding-top: 20px;
   }
+}
+
+.portfolio__box:hover .overley {
+  bottom: 0;
+}
+
+.portfolio__box:hover .portfolio__overley,
+.portfolio__box:focus .portfolio__overley {
+  transform: translateY(-137.5%);
 }

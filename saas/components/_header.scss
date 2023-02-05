@@ -44,6 +44,12 @@
       fill: var(--background-color-quaternary);
     }
   }
+  &__list {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .header__menu-item--active {
