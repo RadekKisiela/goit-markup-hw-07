@@ -54,19 +54,19 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(0);
   }
-}
-&__paragraph {
-  color: var(--text-color-quinary);
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  padding-left: 24px;
-  padding-bottom: 20px;
-}
-&__label {
-  position: relative;
-  background-color: var(--background-color-primary);
-  z-index: 1;
+  &__paragraph {
+    color: var(--text-color-quinary);
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    padding-left: 24px;
+    padding-bottom: 20px;
+  }
+  &_label {
+    position: relative;
+    background-color: var(--background-color-primary);
+    z-index: 1;
+  }
 }
 
 .portfolio__border:hover .overley {
